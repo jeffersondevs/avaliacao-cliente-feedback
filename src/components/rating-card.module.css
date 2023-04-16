@@ -1,0 +1,76 @@
+.card {
+    background-color: #202630;
+    width: 380px;
+    padding: 2rem 2rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.star {
+    color: #FFD700;
+    background-color: #262e37;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.text h1{
+   padding: 0.5rem;
+}
+
+.title {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    /* margin-bottom: 1rem; */
+}
+
+.description {
+    color: #858a96;
+    font-size: 1rem;
+    font-weight: 400;
+    /* margin-bottom: 1rem; */
+}
+
+.ratingButton {
+    background-color: #262e37;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+}
+
+.ratingButton:hover {
+    background-color: #7a8592;
+    color: #262e37;
+}
+
+.ratingButton:focus {
+    background-color: #f7780b;
+    color: #262e37;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.submitButton {
+    background-color: #f7780b;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.submitButton:hover {
+    background-color: #fff;
+    color: #f7780b;
+}
