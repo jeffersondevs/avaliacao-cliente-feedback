@@ -58,6 +58,17 @@
     gap: 1rem;
 }
 
+.commentField {
+    width: 100%;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-family: inherit;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
 .submitButton {
     background-color: #f7780b;
     color: #fff;
