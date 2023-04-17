@@ -11,20 +11,22 @@ A aplicação foi construída usando React e CSS Modules, seguindo as melhores p
 Para executar a aplicação, siga as etapas abaixo:
 
 1. Clone este repositório em sua máquina local usando o seguinte comando:
-
-```bash
+```
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
 
 2. Navegue para o diretório raiz do projeto:
+```
 cd nome-do-repositorio
-
+```
 3. Instale as dependências do projeto:
+```
 npm install
-
+```
 4. Inicie a aplicação:
+```
 npm start
-bash```
-
+```
 A aplicação será aberta em seu navegador padrão em http://localhost:3000.
 
 🛠️ Construído com
