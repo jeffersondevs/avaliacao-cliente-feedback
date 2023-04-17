@@ -23,7 +23,7 @@ npm install
 
 4. Inicie a aplicação:
 npm start
-
+bash```
 
 A aplicação será aberta em seu navegador padrão em http://localhost:3000.
 
