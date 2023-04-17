@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+Feedback Card
+Feedback Card é uma aplicação que permite aos usuários fornecer feedback sobre um determinado serviço ou produto. Ele consiste em um formulário com um campo para classificação de 1 a 5 estrelas e um campo para digitar comentários e sugestões.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A aplicação foi construída usando React e CSS Modules, seguindo as melhores práticas de organização e componentização de código. Ele também utiliza os recursos de estado do React para garantir uma experiência de usuário suave e sem problemas.
 
-## Available Scripts
+Como executar a aplicação
+Para executar a aplicação, siga as etapas abaixo:
 
-In the project directory, you can run:
+Clone este repositório em sua máquina local usando o seguinte comando:
+bash
+Copy code
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Navegue para o diretório raiz do projeto:
+bash
+Copy code
+cd nome-do-repositorio
+Instale as dependências do projeto:
+bash
+Copy code
+npm install
+Inicie a aplicação:
+bash
+Copy code
+npm start
+A aplicação será aberta em seu navegador padrão em http://localhost:3000.
+Como contribuir
+Se você deseja contribuir para este projeto, por favor siga os seguintes passos:
 
-### `npm start`
+Fork este repositório.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Crie uma nova branch para sua funcionalidade:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+git checkout -b minha-nova-funcionalidade
+Faça suas alterações e adicione os arquivos modificados:
+bash
+Copy code
+git add .
+Faça o commit das suas alterações:
+bash
+Copy code
+git commit -m "Adiciona minha nova funcionalidade"
+Envie as suas alterações para o repositório remoto:
+bash
+Copy code
+git push origin minha-nova-funcionalidade
+Crie uma Pull Request na página do repositório.
 
-### `npm test`
+Aguarde o review e merge da sua Pull Request.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Licença
+Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
