@@ -39,7 +39,4 @@ Styled Components
 📄 Licença
 Este projeto está sob a licença MIT.
 
-🎁 Expressões de gratidão
-Agradecimentos especiais a fulano de tal por ter compartilhado o conhecimento.
-etc.
 
