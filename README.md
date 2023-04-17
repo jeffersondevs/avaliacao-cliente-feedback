@@ -31,10 +31,12 @@ A aplicação será aberta em seu navegador padrão em http://localhost:3000.
 
 🛠️ Construído com
 React - Biblioteca de frontend
-Axios - Biblioteca para realizar chamadas HTTP
-Styled Components - Biblioteca para estilizar componentes
+Styled Components 
 ✒️ Autor
-Jefferson Santos - Desenvolvedor - jeffersondevs
+Jefferson Santos 
+- Desenvolvedor 
+- jeffersondevs
+
 📄 Licença
 Este projeto está sob a licença MIT.
 
