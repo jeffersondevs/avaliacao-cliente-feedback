@@ -32,10 +32,9 @@ A aplicação será aberta em seu navegador padrão em http://localhost:3000.
 🛠️ Construído com
 React - Biblioteca de frontend
 Styled Components 
-✒️ Autor
-Jefferson Santos 
-- Desenvolvedor 
-- jeffersondevs
+
+✒️ Autor Jefferson Santos 
+- Desenvolvedor jeffersondevs
 
 📄 Licença
 Este projeto está sob a licença MIT.
