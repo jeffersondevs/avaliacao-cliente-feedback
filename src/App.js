@@ -1,4 +1,4 @@
-import RatingCard from "./components/rating-card";
+import RatingCard from "./components/RatingCard";
 
 function App() {
   return (
