@@ -34,7 +34,7 @@ React - Biblioteca de frontend
 Styled Components 
 
 ✒️ Autor Jefferson Santos 
-- Desenvolvedor jeffersondevs
+- Desenvolvedor @jeffersondevs
 
 📄 Licença
 Este projeto está sob a licença MIT.
