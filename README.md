@@ -1,4 +1,4 @@
-README.md do projeto para obter mais informações. Aqui está o código em Markdown:o LICENSE para obter mais informações.
+README.md do projeto para obter mais informações.
 
 # Feedback Card
 
