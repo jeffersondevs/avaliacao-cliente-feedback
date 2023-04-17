@@ -85,3 +85,8 @@
     background-color: #fff;
     color: #f7780b;
 }
+
+.selectedRatingButton {
+    background-color: #f7780b;
+    color: white;
+}
