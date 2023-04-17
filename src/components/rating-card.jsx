@@ -5,16 +5,23 @@ import { FaStar } from 'react-icons/fa';
 export default function RatingCard() {
   const [selctedRating, setSelectedRating] = useState([]);
   const [card, setCard] = useState('false');
+  const [comment, setComment] = useState('');
+  const [submittedData, setSubmittedData] = useState(null);
+
 
   const handleRating = (e, rating) => {
     e.preventDefault();
     setSelectedRating(rating);
   };
 
+  const handleCommentChange = (e) => {
+    setComment(e.target.value);
+  };
+
   const handleRatingSubmit = (e) => {
     e.preventDefault();
     setCard(true);
-    console.log('rating submitted', selctedRating);
+    setSubmittedData({ rating: selctedRating, comment: comment});
   };
 
   if (card === true) {
@@ -56,6 +63,12 @@ export default function RatingCard() {
             <p className={ styles.description }>Please let us know how we did with your support request. All feddback is appreciated to help is improve our offering!</p>
           </div>
           {renderRatingButtons()}
+          <textarea
+            className={styles.commentField}
+            value={comment}
+            onChange={handleCommentChange}
+            placeholder="Digite seus comentários e sugestões aqui..."
+          />
           <button 
             className={ styles.submitButton }
             type="submit"
