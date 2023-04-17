@@ -6,7 +6,7 @@ export default function RatingCard() {
   const [selctedRating, setSelectedRating] = useState([]);
   const [card, setCard] = useState('false');
   const [comment, setComment] = useState('');
-  const [submittedData, setSubmittedData] = useState(null);
+  const [submittedData, setSubmittedData] = useState({});
 
 
   const handleRating = (e, rating) => {
@@ -40,7 +40,11 @@ export default function RatingCard() {
           return (
             <button
               key={ratingValue}
-              className={ styles.ratingButton }
+              className={`${styles.ratingButton} ${
+                selctedRating === ratingValue
+                  ? styles.selectedRatingButton
+                  : ""
+              }`}
               onClick={(e) => handleRating(e, ratingValue)}
             >  
               {ratingValue}
