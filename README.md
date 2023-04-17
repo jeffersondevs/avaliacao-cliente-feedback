@@ -12,7 +12,7 @@ Para executar a aplicação, siga as etapas abaixo:
 
 1. Clone este repositório em sua máquina local usando o seguinte comando:
 ```
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/jeffersondevs/avaliacao-cliente-feedback.git
 ```
 
 2. Navegue para o diretório raiz do projeto:
