@@ -35,7 +35,7 @@ Styled Components
 
 ✒️ Autor Jefferson Santos
 
-- Para acessar a aplicação, [Shopping-Cart](https://644e96a401e7386a105212c8--fastidious-sorbet-4a4c76.netlify.app/).
+- Para acessar a aplicação, [FeedBack-Card](https://card-feedback.netlify.app/).
 
 
 📄 Licença
