@@ -33,8 +33,9 @@ A aplicação será aberta em seu navegador padrão em http://localhost:3000.
 React - Biblioteca de frontend
 Styled Components 
 
-✒️ Autor Jefferson Santos 
--Para acessar a aplicação, visite [acesse](https://644e96a401e7386a105212c8--fastidious-sorbet-4a4c76.netlify.app/).
+✒️ Autor Jefferson Santos
+
+- Para acessar a aplicação, [Shopping-Cart](https://644e96a401e7386a105212c8--fastidious-sorbet-4a4c76.netlify.app/).
 
 
 📄 Licença
